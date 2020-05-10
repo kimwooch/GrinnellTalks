@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015027506171",
+    "firebase_url": "https://ecommerce-e1e6f.firebaseio.com",
+    "project_id": "ecommerce-e1e6f",
+    "storage_bucket": "ecommerce-e1e6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015027506171:android:82013eca98cc3d4226895e",
+        "android_client_info": {
+          "package_name": "com.example.grinnelltalkstut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015027506171-lth8kha87v5fmo328n2rn2qm75fsje0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9yX-usl5eNwNxbSDE0p0qysWDyRWnQ7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015027506171-lth8kha87v5fmo328n2rn2qm75fsje0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

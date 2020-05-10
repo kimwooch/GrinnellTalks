@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1015027506171-rhg4r5rnrgjrr0r8obanc9rq6u1sr2ip.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1015027506171-rhg4r5rnrgjrr0r8obanc9rq6u1sr2ip</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRcSiWNxLqwhht2gF7dY-lKAP7G44VkEQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1015027506171</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.grinnelltalkstut</string>
+	<key>PROJECT_ID</key>
+	<string>ecommerce-e1e6f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ecommerce-e1e6f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1015027506171:ios:b02df8643d7b3c7726895e</string>
+	<key>DATABASE_URL</key>
+	<string>https://ecommerce-e1e6f.firebaseio.com</string>
+</dict>
+</plist>
