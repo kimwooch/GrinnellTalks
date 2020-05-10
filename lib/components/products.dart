@@ -8,10 +8,34 @@ class Products extends StatefulWidget {
 class _ProductsState extends State<Products> {
   var product_list = [
     {
-      "name": "Blazer1",
+      "name": "Blazer",
       "picture": "imagestest/products/blazer1.jpeg",
       "old_price": 120,
       "price": 85,
+    },
+    {
+      "name": "Red dress",
+      "picture": "imagestest/products/dress1.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+    {
+      "name": "Red dress",
+      "picture": "imagestest/products/blazer2.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+    {
+      "name": "Red dress",
+      "picture": "imagestest/products/skt2.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+    {
+      "name": "Red dress",
+      "picture": "imagestest/products/dress2.jpeg",
+      "old_price": 100,
+      "price": 50,
     },
     {
       "name": "Blazer2",
@@ -67,20 +91,12 @@ class Single_prod extends StatelessWidget {
             child: GridTile(
               footer: Container(
                 color: Colors.white70,
-                child: ListTile(
-                  leading: Text(prod_name, style: TextStyle(fontWeight: FontWeight.bold),
+                child: new Row(children: <Widget>[
+                  Expanded(
+                    child: Text(prod_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.0),),
                   ),
-                  title: Text(
-                    "\$$prod_price",
-                    style: TextStyle(
-                        color: Colors.red, fontWeight: FontWeight.w800),
-                  ),
-                  subtitle: Text(
-                    "\$$prod_old_price",
-                    style: TextStyle(
-                        color: Colors.black54, fontWeight: FontWeight.w800, decoration: TextDecoration.lineThrough),
-                  ),
-                ),
+                  new Text("\$${prod_price}", style: TextStyle(color: Colors.red, fontWeight:  FontWeight.bold),)
+                ],)
 
               ),
               child: Image.asset(prod_picture, fit: BoxFit.cover,)),

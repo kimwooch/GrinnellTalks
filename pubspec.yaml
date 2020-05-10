@@ -63,6 +63,12 @@ flutter:
     - imagestest/cats/accessories.png
     - imagestest/products/blazer1.jpeg
     - imagestest/products/blazer2.jpeg
+    - imagestest/products/dress1.jpeg
+    - imagestest/products/hills1.jpeg
+    - imagestest/products/hills2.jpeg
+    - imagestest/products/skt1.jpeg
+    - imagestest/products/skt2.jpeg
+    - imagestest/products/dress2.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

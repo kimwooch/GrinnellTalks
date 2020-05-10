@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter_tab_bar_no_ripple/flutter_tab_bar_no_ripple.dart';
 
-
 //my own imports
 import 'package:grinnelltalkstut/components/horizontal_listview.dart';
 import 'package:grinnelltalkstut/components/products.dart';
+import 'package:grinnelltalkstut/pages/cart.dart';
 
 void main(){
   runApp(
@@ -58,7 +58,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         title: Text('Grinnell Talks'),
         actions:<Widget>[
           new IconButton(icon: Icon(Icons.search, color: Colors.white), onPressed: (){}),
-          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,), onPressed: (){},),
+          new IconButton(icon: Icon(Icons.shopping_cart, color: Colors.white,),
+              onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder:(context)=> new Cart()));
+          })
         ],
         bottom: TabBarNoRipple(
           indicatorColor: Colors.white,
@@ -106,7 +109,9 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
               ),
             ),
             InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => new Cart()));
+              },
               child: ListTile(
                 title: Text('Shopping cart'),
                 leading: Icon(Icons.shopping_cart, color: Colors.red,),
